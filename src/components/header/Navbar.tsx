@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Navbar() {
   const links = [
-    { id: crypto.randomUUID(), title: "Menu", href: Routes.MENU },
+    { id: crypto.randomUUID(), title: "Products", href: Routes.PRODUCTS },
     { id: crypto.randomUUID(), title: "About", href: Routes.ABOUT },
     { id: crypto.randomUUID(), title: "Contact", href: Routes.CONTACT },
     {
@@ -18,7 +18,7 @@ export default function Navbar() {
       <ul className="flex gap-4 py-2">
         {links.map((link) => (
           <li key={link.id}>
-            <Link href={link.href}>{link.title}</Link>
+            <Link href={`/${link.href}`}>{link.title}</Link>
           </li>
         ))}
       </ul>

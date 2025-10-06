@@ -7,8 +7,37 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model User {
+  id            String  @id @default(uuid())
+  email         String  @unique
+  password      String
+  name          String
+  image         String?
+  phone         String?
+  streetAddress String?
+  postalCode    String?
+  city          String?
+  country       String?
+}
+
 model Product {
   id          String @id @default(uuid())
   name        String
   description String
+  sizes       Size[]
+}
+
+model Size {
+  id    String       @id @default(cuid())
+  name  ProductSizes
+  price Float
+
+  product   Product @relation(fields: [productId], references: [id])
+  productId String
+}
+
+enum ProductSizes {
+  SMALL
+  MEDIUM
+  LARGE
 }

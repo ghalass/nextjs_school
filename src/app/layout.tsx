@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" suppressHydrationWarning>
-      <body className={`${roboto.className}`}>
+      <body className={`${roboto.className} container`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
