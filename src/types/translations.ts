@@ -27,6 +27,10 @@ export type Translations = {
     contact: string;
     login: string;
     products: string;
+    register: string;
+    signOut: string;
+    profile: string;
+    admin: string;
   };
   validation: {
     nameRequired: string;
@@ -78,5 +82,87 @@ export type Translations = {
       };
     };
   };
+  profile: {
+    title: string;
+    form: {
+      name: Field;
+      email: Field;
+      phone: Field;
+      address: Field;
+      postalCode: Field;
+      city: Field;
+      country: Field;
+    };
+  };
+  admin: {
+    tabs: {
+      profile: string;
+      categories: string;
+      menuItems: string;
+      users: string;
+      orders: string;
+    };
+    categories: {
+      form: {
+        editName: string;
+        name: {
+          label: string;
+          placeholder: string;
+          validation: {
+            required: string;
+          };
+        };
+      };
+    };
+    "menu-items": {
+      addItemSize: string;
+      createNewMenuItem: string;
+      addExtraItem: string;
+      menuOption: {
+        name: string;
+        extraPrice: string;
+      };
+      form: {
+        name: {
+          label: string;
+          placeholder: string;
+          validation: {
+            required: string;
+          };
+        };
+        description: {
+          label: string;
+          placeholder: string;
+          validation: {
+            required: string;
+          };
+        };
+        basePrice: {
+          label: string;
+          placeholder: string;
+          validation: {
+            required: string;
+          };
+        };
+        category: {
+          validation: {
+            required: string;
+          };
+        };
+        image: {
+          validation: {
+            required: string;
+          };
+        };
+      };
+    };
+  };
+  category: string;
+  save: string;
+  edit: string;
+  delete: string;
+  cancel: string;
+  create: string;
   copyRight: string;
+  noProductsFound: string;
 };

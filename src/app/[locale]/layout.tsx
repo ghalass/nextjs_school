@@ -7,6 +7,7 @@ import { Directions, Languages } from "@/constants/enums";
 import "./globals.css";
 import { Locale } from "@/i18n.config";
 import { Toaster } from "@/components/ui/sonner";
+import NextAuthSessionProvider from "@/providers/NextAuthSessionProvider";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -44,10 +45,12 @@ export default async function RootLayout({
         }
       >
         <div className="container">
-          <Header />
-          <Toaster position="top-center" />
-          {children}
-          <Footer />
+          <NextAuthSessionProvider>
+            <Header />
+            <Toaster position="top-center" />
+            {children}
+            <Footer />
+          </NextAuthSessionProvider>
         </div>
       </body>
     </html>

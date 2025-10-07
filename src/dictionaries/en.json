@@ -1,94 +1,219 @@
 {
-    "logo": "Logo",
-    "home": {
-        "welcome": "Bienvenue",
-        "description": "Notre plateforme de gestion d’école est une solution numérique complète conçue pour faciliter le suivi, l’organisation et la communication au sein d’un établissement scolaire. Elle offre aux administrateurs, enseignants, élèves et parents un espace centralisé et sécurisé pour gérer efficacement la vie scolaire."
+  "logo": "École",
+  "home": {
+    "welcome": "Bienvenue",
+    "description": "Notre plateforme de gestion d’école est une solution numérique complète conçue pour faciliter le suivi, l’organisation et la communication au sein d’un établissement scolaire. Elle offre aux administrateurs, enseignants, élèves et parents un espace centralisé et sécurisé pour gérer efficacement la vie scolaire."
+  },
+  "about": {
+    "ourStory": "Notre histoire",
+    "aboutUs": "À propos de nous",
+    "description": {
+      "one": "",
+      "two": ""
+    }
+  },
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos de nous",
+    "contact": "Contactez-nous",
+    "login": "Connexion",
+    "products": "Produits",
+    "signOut": "Se déconnecter",
+    "register": "Register",
+    "profile": "Profil",
+    "admin": "Admin"
+  },
+  "validation": {
+    "nameRequired": "Le nom est obligatoire",
+    "validEmail": "L'adresse e-mail doit être valide",
+    "passwordMinLength": "Le mot de passe doit comporter au moins 6 caractères",
+    "passwordMaxLength": "Le mot de passe doit comporter au maximum 40 caractères",
+    "confirmPasswordRequired": "Confirmer le mot de passe est obligatoire",
+    "passwordMismatch": "Le mot de passe ne correspond pas"
+  },
+  "messages": {
+    "userNotFound": "Utilisateur introuvable",
+    "incorrectPassword": "Mot de passe incorrect",
+    "loginSuccessful": "Connexion réussie",
+    "unexpectedError": "Une erreur inattendue s'est produite",
+    "userAlreadyExists": "L'utilisateur existe déjà.",
+    "accountCreated": "Compte créé",
+    "updateProfileSucess": "Profil mis à jour",
+    "categoryAdded": "Catégorie ajoutée",
+    "updatecategorySucess": "Catégorie mise à jour",
+    "deleteCategorySucess": "Catégorie supprimée",
+    "productAdded": "Produit ajouté",
+    "updateProductSucess": "Produit mis à jour",
+    "deleteProductSucess": "Produit supprimé",
+    "updateUserSucess": "Utilisateur mis à jour",
+    "deleteUserSucess": "Utilisateur supprimé"
+  },
+  "auth": {
+    "login": {
+      "title": "Bienvenue",
+      "name": {
+        "label": "Nom",
+        "placeholder": "Entrez votre nom"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Entrez votre email"
+      },
+      "password": {
+        "label": "Mot de passe",
+        "placeholder": "Entrez votre mot de passe"
+      },
+      "submit": "Connexion",
+      "authPrompt": {
+        "message": "Vous n'avez pas de compte ?",
+        "signUpLinkText": "Inscription"
+      }
     },
-    "about": {
-        "ourStory": "Notre histoire",
-        "aboutUs": "À propos de nous",
-        "description": {
-            "one": "",
-            "two": ""
+    "register": {
+      "title": "S'inscrire",
+      "name": {
+        "label": "Nom",
+        "placeholder": "Entrez votre nom"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Entrez votre email"
+      },
+      "password": {
+        "label": "Mot de passe",
+        "placeholder": "Saisissez votre mot de passe"
+      },
+      "confirmPassword": {
+        "label": "Confirmer le mot de passe",
+        "placeholder": "Re-saisissez votre mot de passe"
+      },
+      "submit": "S'inscrire",
+      "authPrompt": {
+        "message": "Avez-vous un compte ?",
+        "loginLinkText": "Connexion"
+      }
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "form": {
+      "name": {
+        "label": "Nom",
+        "placeholder": "Entrez votre nom"
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "Entrez votre e-mail"
+      },
+      "phone": {
+        "label": "Téléphone",
+        "placeholder": "Entrez votre numéro de téléphone",
+        "validation": {
+          "required": "Le numéro de téléphone est requis",
+          "invalid": "Veuillez entrer un numéro de téléphone valide"
         }
+      },
+      "address": {
+        "label": "Adresse",
+        "placeholder": "Entrez votre adresse",
+        "validation": {
+          "required": "L’adresse est requise"
+        }
+      },
+      "postalCode": {
+        "label": "Code postal",
+        "placeholder": "Entrez votre code postal",
+        "validation": {
+          "required": "Le code postal est requis",
+          "invalid": "Veuillez entrer un code postal valide"
+        }
+      },
+      "city": {
+        "label": "Ville",
+        "placeholder": "Entrez votre ville",
+        "validation": {
+          "required": "La ville est requise"
+        }
+      },
+      "country": {
+        "label": "Pays",
+        "placeholder": "Entrez votre pays",
+        "validation": {
+          "required": "Le pays est requis"
+        }
+      }
+    }
+  },
+  "admin": {
+    "tabs": {
+      "profile": "Profil",
+      "categories": "Catégories",
+      "menuItems": "Articles du menu",
+      "users": "Utilisateurs",
+      "orders": "Commandes"
     },
-    "navbar": {
-        "home": "Accueil",
-        "about": "À propos de nous",
-        "contact": "Contactez-nous",
-        "login": "Connexion",
-        "products": "produits"
+    "categories": {
+      "form": {
+        "editName": "Modifier le nom de la catégorie",
+        "name": {
+          "label": "Nom de la catégorie",
+          "placeholder": "Entrez le nom de la catégorie",
+          "validation": {
+            "required": "Le nom de la catégorie est requis"
+          }
+        }
+      }
     },
-    "validation": {
-        "nameRequired": "Le nom est obligatoire",
-        "validEmail": "L'adresse e-mail doit être valide",
-        "passwordMinLength": "Le mot de passe doit comporter au moins 6 caractères",
-        "passwordMaxLength": "Le mot de passe doit comporter au maximum 40 caractères",
-        "confirmPasswordRequired": "Confirmer le mot de passe est obligatoire",
-        "passwordMismatch": "Le mot de passe ne correspond pas"
-    },
-    "messages": {
-        "userNotFound": "Utilisateur introuvable",
-        "incorrectPassword": "Mot de passe incorrect",
-        "loginSuccessful": "Connexion réussie",
-        "unexpectedError": "Une erreur inattendue s'est produite",
-        "userAlreadyExists": "L'utilisateur existe déjà.",
-        "accountCreated": "Compte créé",
-        "updateProfileSucess": "Profil mis à jour",
-        "categoryAdded": "Catégorie ajoutée",
-        "updatecategorySucess": "Catégorie mise à jour",
-        "deleteCategorySucess": "Catégorie supprimée",
-        "productAdded": "Produit ajouté",
-        "updateProductSucess": "Produit mis à jour",
-        "deleteProductSucess": "Produit supprimé",
-        "updateUserSucess": "Utilisateur mis à jour",
-        "deleteUserSucess": "Utilisateur supprimé"
-    },
-    "auth": {
-        "login": {
-            "title": "Bienvenue",
-            "name": {
-                "label": "Nom",
-                "placeholder": "Entrez votre nom"
-            },
-            "email": {
-                "label": "Email",
-                "placeholder": "Entrez votre email"
-            },
-            "password": {
-                "label": "Mot de passe",
-                "placeholder": "Entrez votre mot de passe"
-            },
-            "submit": "Connexion",
-            "authPrompt": {
-                "message": "Vous n'avez pas de compte ?",
-                "signUpLinkText": "Inscription"
-            }
+    "menu-items": {
+      "createNewMenuItem": "Créer un nouvel article de menu",
+      "addItemSize": "Ajouter une taille d’article",
+      "addExtraItem": "Ajouter un article supplémentaire",
+      "menuOption": {
+        "name": "Nom",
+        "extraPrice": "Prix supplémentaire"
+      },
+      "form": {
+        "name": {
+          "label": "Nom de l’article",
+          "placeholder": "Entrez le nom de l’article",
+          "validation": {
+            "required": "Le nom de l’article est requis"
+          }
         },
-        "register": {
-            "title": "S'inscrire",
-            "name": {
-                "label": "Nom",
-                "placeholder": "Entrez votre nom"
-            },
-            "email": {
-                "label": "Email",
-                "placeholder": "Entrez votre email"
-            },
-            "password": {
-                "label": "Mot de passe",
-                "placeholder": "Saisissez votre mot de passe"
-            },
-            "confirmPassword": {
-                "label": "Confirmer le mot de passe",
-                "placeholder": "Re-saisissez votre mot de passe"
-            },
-            "submit": "S'inscrire",
-            "authPrompt": {
-                "message": "Avez-vous un compte ?",
-                "loginLinkText": "Connexion"
-            }
+        "description": {
+          "label": "Description",
+          "placeholder": "Entrez la description",
+          "validation": {
+            "required": "La description est requise"
+          }
+        },
+        "basePrice": {
+          "label": "Prix de base",
+          "placeholder": "Entrez le prix de base",
+          "validation": {
+            "required": "Le prix de base est requis"
+          }
+        },
+        "category": {
+          "validation": {
+            "required": "La catégorie est requise"
+          }
+        },
+        "image": {
+          "validation": {
+            "required": "L’image du produit est requise"
+          }
         }
-    },
-    "copyRight": "© Droits d'auteur 2025"
+      }
+    }
+  },
+ "category": "Catégorie",
+  "save": "Enregistrer",
+  "edit": "Modifier",
+  "delete": "Supprimer",
+  "cancel": "Annuler",
+  "create": "Créer",
+  "copyRight": "© 2025 Droits d'auteur",
+  "noProductsFound": "Aucun produit trouvé"
+
 }

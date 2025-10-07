@@ -6,7 +6,7 @@ const Footer = async () => {
   const { copyRight } = await getTrans(locale);
 
   return (
-    <footer className="border-t p-8 text-center text-accent">
+    <footer className="border-t p-8 text-center text-black">
       <div className="container">
         <p>{copyRight}</p>
       </div>
