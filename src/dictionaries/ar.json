@@ -1,0 +1,94 @@
+{
+    "logo": "الشعار",
+    "home": {
+        "welcome": "مرحباً",
+        "description": "تعد منصة إدارة المدرسة حلاً رقميًا كاملاً مصممًا لتسهيل المتابعة والتنظيم والتواصل من خلال مؤسسة مدرسية.\nتوفر هذه المدرسة للمشرفين والمعلمين والتلاميذ وأولياء الأمور مساحة مركزية وآمنة لتسيير الحياة المدرسية بشكل فعال."
+    },
+    "about": {
+        "ourStory": "قصتنا",
+        "aboutUs": "معلومات عنا",
+        "description": {
+            "one": "",
+            "two": ""
+        }
+    },
+    "navbar": {
+        "home": "الصفحة الرئيسية",
+        "about": "معلومات عنا",
+        "contact": "اتصل بنا",
+        "login": "تسجيل الدخول",
+        "products": "منتجات"
+    },
+    "validation": {
+        "nameRequired": "الاسم مطلوب",
+        "validEmail": "يجب أن يكون بريدًا إلكترونيًا صحيحًا",
+        "passwordMinLength": "يجب ألا تقل كلمة المرور عن 6 أحرف",
+        "passwordMaxLength": "يجب ألا تزيد كلمة المرور عن 40 حرفًا",
+        "confirmPasswordRequired": "تأكيد كلمة المرور مطلوب",
+        "passwordMismatch": "كلمة المرور غير متطابقة"
+    },
+    "messages": {
+        "userNotFound": "لم يتم العثور على المستخدم",
+        "incorrectPassword": "كلمة مرور غير صحيحة",
+        "loginSuccessful": "تم تسجيل الدخول بنجاح",
+        "unexpectedError": "حدث خطأ غير متوقع",
+        "userAlreadyExists": "المستخدم موجود بالفعل",
+        "accountCreated": "تم إنشاء الحساب",
+        "updateProfileSucess": "تم تحديث الملف الشخصي",
+        "categoryAdded": "تمت إضافة الفئة",
+        "updatecategorySucess": "تم تحديث الفئة",
+        "deleteCategorySucess": "تم حذف الفئة",
+        "productAdded": "تمت إضافة المنتج",
+        "updateProductSucess": "تم تحديث المنتج",
+        "deleteProductSucess": "تم حذف المنتج",
+        "updateUserSucess": "تم تحديث المستخدم",
+        "deleteUserSucess": "تم حذف المستخدم"
+    },
+    "auth": {
+        "login": {
+            "title": "مرحبًا بعودتك",
+            "name": {
+                "label": "الاسم",
+                "placeholder": "أدخل اسمك"
+            },
+            "email": {
+                "label": "البريد الإلكتروني",
+                "placeholder": "أدخل بريدك الإلكتروني"
+            },
+            "password": {
+                "label": "كلمة المرور",
+                "placeholder": "أدخل كلمة المرور"
+            },
+            "submit": "تسجيل الدخول",
+            "authPrompt": {
+                "message": "ليس لديك حساب؟",
+                "signUpLinkText": "إنشاء حساب"
+            }
+        },
+        "register": {
+            "title": "إنشاء حساب",
+            "name": {
+                "label": "الاسم",
+                "placeholder": "أدخل اسمك"
+            },
+            "email": {
+                "label": "البريد الإلكتروني",
+                "placeholder": "أدخل بريدك الإلكتروني"
+            },
+            "password": {
+                "label": "كلمة المرور",
+                "placeholder": "اختر كلمة مرور"
+            },
+            "confirmPassword": {
+                "label": "تأكيد كلمة المرور",
+                "placeholder": "أعد إدخال كلمة المرور"
+            },
+            "submit": "إنشاء حساب",
+            "authPrompt": {
+                "message": "هل لديك حساب بالفعل؟",
+                "loginLinkText": "تسجيل الدخول"
+            }
+        }
+    },
+    "copyRight": "© حقوق الطبع والنشر 2025"
+}

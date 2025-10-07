@@ -1,0 +1,94 @@
+{
+    "logo": "Logo",
+    "home": {
+        "welcome": "Bienvenue",
+        "description": "Notre plateforme de gestion d’école est une solution numérique complète conçue pour faciliter le suivi, l’organisation et la communication au sein d’un établissement scolaire. Elle offre aux administrateurs, enseignants, élèves et parents un espace centralisé et sécurisé pour gérer efficacement la vie scolaire."
+    },
+    "about": {
+        "ourStory": "Notre histoire",
+        "aboutUs": "À propos de nous",
+        "description": {
+            "one": "",
+            "two": ""
+        }
+    },
+    "navbar": {
+        "home": "Accueil",
+        "about": "À propos de nous",
+        "contact": "Contactez-nous",
+        "login": "Connexion",
+        "products": "produits"
+    },
+    "validation": {
+        "nameRequired": "Le nom est obligatoire",
+        "validEmail": "L'adresse e-mail doit être valide",
+        "passwordMinLength": "Le mot de passe doit comporter au moins 6 caractères",
+        "passwordMaxLength": "Le mot de passe doit comporter au maximum 40 caractères",
+        "confirmPasswordRequired": "Confirmer le mot de passe est obligatoire",
+        "passwordMismatch": "Le mot de passe ne correspond pas"
+    },
+    "messages": {
+        "userNotFound": "Utilisateur introuvable",
+        "incorrectPassword": "Mot de passe incorrect",
+        "loginSuccessful": "Connexion réussie",
+        "unexpectedError": "Une erreur inattendue s'est produite",
+        "userAlreadyExists": "L'utilisateur existe déjà.",
+        "accountCreated": "Compte créé",
+        "updateProfileSucess": "Profil mis à jour",
+        "categoryAdded": "Catégorie ajoutée",
+        "updatecategorySucess": "Catégorie mise à jour",
+        "deleteCategorySucess": "Catégorie supprimée",
+        "productAdded": "Produit ajouté",
+        "updateProductSucess": "Produit mis à jour",
+        "deleteProductSucess": "Produit supprimé",
+        "updateUserSucess": "Utilisateur mis à jour",
+        "deleteUserSucess": "Utilisateur supprimé"
+    },
+    "auth": {
+        "login": {
+            "title": "Bienvenue",
+            "name": {
+                "label": "Nom",
+                "placeholder": "Entrez votre nom"
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": "Entrez votre email"
+            },
+            "password": {
+                "label": "Mot de passe",
+                "placeholder": "Entrez votre mot de passe"
+            },
+            "submit": "Connexion",
+            "authPrompt": {
+                "message": "Vous n'avez pas de compte ?",
+                "signUpLinkText": "Inscription"
+            }
+        },
+        "register": {
+            "title": "S'inscrire",
+            "name": {
+                "label": "Nom",
+                "placeholder": "Entrez votre nom"
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": "Entrez votre email"
+            },
+            "password": {
+                "label": "Mot de passe",
+                "placeholder": "Saisissez votre mot de passe"
+            },
+            "confirmPassword": {
+                "label": "Confirmer le mot de passe",
+                "placeholder": "Re-saisissez votre mot de passe"
+            },
+            "submit": "S'inscrire",
+            "authPrompt": {
+                "message": "Avez-vous un compte ?",
+                "loginLinkText": "Connexion"
+            }
+        }
+    },
+    "copyRight": "© Droits d'auteur 2025"
+}
