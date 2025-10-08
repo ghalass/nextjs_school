@@ -1,3 +1,5 @@
+// src\components\edit-user-form\_actions\profile.ts
+
 "use server";
 import { Pages, Routes } from "@/constants/enums";
 import { getCurrentLocale } from "@/lib/getCurrentLocale";

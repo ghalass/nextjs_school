@@ -1,3 +1,5 @@
+// src/server/auth.ts
+
 import { Environments, Pages, Routes } from "@/constants/enums";
 import { DefaultSession, type NextAuthOptions } from "next-auth";
 import Credentials from "next-auth/providers/credentials";
@@ -80,7 +82,7 @@ export const authOptions: NextAuthOptions = {
     updateAge: 24 * 60 * 60, // 24 hours
   },
   secret: process.env.NEXTAUTH_SECRET,
-  debug: process.env.NODE_ENV === Environments.DEV,
+  debug: false, // process.env.NODE_ENV === Environments.DEV
   providers: [
     Credentials({
       name: "credentials",
