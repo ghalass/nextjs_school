@@ -1,10 +1,3 @@
-//
-//
-//
-//
-//
-// 4:08
-
 import { Pages, Routes } from "@/constants/enums";
 import { IFormField, IFormFieldsVariables } from "@/types/app";
 import { Translations } from "@/types/translations";
